@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_SRP/1_SRP.iml" filepath="$PROJECT_DIR$/1_SRP/1_SRP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDesign.iml" filepath="$PROJECT_DIR$/IDesign.iml" />
+    </modules>
+  </component>
+</project>

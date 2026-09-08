@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea581f79-f171-4833-9742-d41926f1f0a7" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/IVideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/GuestVideoUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/OrdinaryVideoUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/VIPVideoUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/APITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_OpenClose/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/main/java/main/java/com/ivanzhao/design/ICalculationArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/main/java/main/java/com/ivanzhao/design/impl/CalculationArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/main/java/main/java/com/ivanzhao/design/impl/CalculationAreaExt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/test/java/com/ivanzhao/design/test/APITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/main/java/com/ivanzhao/design/BankCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/main/java/com/ivanzhao/design/CashCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/main/java/com/ivanzhao/design/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/test/java/com/ivanzhao/design/test/APITest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java_dev\Maven\repository" />
+        <option name="userSettingsFile" value="D:\java_dev\Maven\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3J1Y4zm7G95UJYSGiKyH7mS40CN" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.APITest.executor": "Run",
+    "JUnit.APITest.test_CreditCard.executor": "Run",
+    "JUnit.APITest.test_bankCard.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/free/Desktop/codeDesign/代码/IDesign/3_LiskovSubstitution/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\3_LiskovSubstitution\src\test\java" />
+      <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\3_LiskovSubstitution\src\main\java" />
+      <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.APITest.test_CreditCard">
+    <configuration name="APITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2_OpenClose" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanzhao.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivanzhao.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.design.test.APITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest.test_CreditCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_LiskovSubstitution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanzhao.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivanzhao.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.design.test.APITest" />
+      <option name="METHOD_NAME" value="test_CreditCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITest.test_bankCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="3_LiskovSubstitution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanzhao.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivanzhao.design.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.design.test.APITest" />
+      <option name="METHOD_NAME" value="test_bankCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.APITest.test_CreditCard" />
+        <item itemvalue="JUnit.APITest.test_bankCard" />
+        <item itemvalue="JUnit.APITest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ea581f79-f171-4833-9742-d41926f1f0a7" name="更改" comment="" />
+      <created>1788829856641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788829856641</updated>
+      <workItem from="1788829858676" duration="7258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
