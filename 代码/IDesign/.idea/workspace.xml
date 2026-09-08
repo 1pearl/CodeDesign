@@ -5,21 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea581f79-f171-4833-9742-d41926f1f0a7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/IVideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/GuestVideoUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/OrdinaryVideoUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/VIPVideoUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/APITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_OpenClose/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/main/java/main/java/com/ivanzhao/design/ICalculationArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/main/java/main/java/com/ivanzhao/design/impl/CalculationArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/main/java/main/java/com/ivanzhao/design/impl/CalculationAreaExt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_OpenClose/src/test/java/com/ivanzhao/design/test/APITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/main/java/com/ivanzhao/design/BankCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/main/java/com/ivanzhao/design/CashCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/main/java/com/ivanzhao/design/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_LiskovSubstitution/src/test/java/com/ivanzhao/design/test/APITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/common/VideoUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/SRP/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/Common/HeroHouYi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/Common/HeroLianPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/Common/ISkill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillArchery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillInvisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillSilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillVertigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/impl/HeroHouYi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/impl/HeroLianPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/test/java/com/ivanzhao/test/ISP/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/test/java/com/ivanzhao/test/common/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/IVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/IVideoUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/GuestVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/impl/GuestVideoUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/OrdinaryVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/impl/OrdinaryVideoUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/VIPVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/impl/VipVideoUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/APITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔记/设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/设计模式.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +70,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/free/Desktop/codeDesign/代码/IDesign/3_LiskovSubstitution/src/test/java",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/free/Desktop/codeDesign/代码/IDesign/4_TheDemeterPrinciple/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +86,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\4_TheDemeterPrinciple\src\main\java" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\3_LiskovSubstitution\src\test\java" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\3_LiskovSubstitution\src\main\java" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign" />
@@ -152,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788829856641</updated>
-      <workItem from="1788829858676" duration="7258000" />
+      <workItem from="1788829858676" duration="12337000" />
     </task>
     <servers />
   </component>

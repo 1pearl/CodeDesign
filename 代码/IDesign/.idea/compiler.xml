@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="3_LiskovSubstitution" />
         <module name="2_OpenClose" />
+        <module name="5_InterfaceSegregationPrinciple" />
+        <module name="3_LiskovSubstitution" />
+        <module name="4_TheDemeterPrinciple" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,10 +1,10 @@
-package com.ivanzhao.design;
+package com.ivanzhao.design.SRP;
 
 /**
  * @author 赵一帆(Ivan Zhao)
  * @version 1.0
  */
-public interface IVideoService {
+public interface IVideoUserService {
 
     void definition();
 

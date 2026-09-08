@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/3_LiskovSubstitution/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/3_LiskovSubstitution/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4_TheDemeterPrinciple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4_TheDemeterPrinciple/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/resources" charset="UTF-8" />
   </component>
 </project>
