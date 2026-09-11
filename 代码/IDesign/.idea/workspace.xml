@@ -5,30 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea581f79-f171-4833-9742-d41926f1f0a7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/common/VideoUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/SRP/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/common/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/Common/HeroHouYi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/Common/HeroLianPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/Common/ISkill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillArchery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillInvisible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillSilent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/ISkillVertigo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/impl/HeroHouYi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/main/java/com/ivanzhao/design/ISP/impl/HeroLianPo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/test/java/com/ivanzhao/test/ISP/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/src/test/java/com/ivanzhao/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/card/IQiYiCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/card/IQiYiCardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/coupon/CouponInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/coupon/CouponResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/coupon/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/goods/DeliverReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/goods/GoodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/goods/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/common/AwardReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/common/AwardRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/common/PrizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/ICommodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/StoreFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/store/Impl/CardCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/store/Impl/CouponCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/store/Impl/GoodsCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/test/java/com/ivanzhao/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/test/java/com/ivanzhao/test/factory/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/application/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/application/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/redis/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/redis/cluster/EGM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/redis/cluster/IIR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/PracticeDynamicProxy/TestJdkAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/factory/JDKInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/factory/JDKProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/util/ClassLoaderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/workshop/ICacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/workshop/impl/EGMCacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/workshop/impl/IIRCacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/common/CacheClusterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/common/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/test/java/com/ivanzhao/test/abstractFactory/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/test/java/com/ivanzhao/test/common/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/IVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/IVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/GuestVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/impl/GuestVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/OrdinaryVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/impl/OrdinaryVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/impl/VIPVideoUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_SRP/src/com/ivanzhao/design/SRP/impl/VipVideoUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_SRP/src/test/com/ivanzhao/design/test/APITest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../笔记/设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/设计模式.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +71,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3J1Y4zm7G95UJYSGiKyH7mS40CN" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -67,11 +83,13 @@
     "JUnit.APITest.executor": "Run",
     "JUnit.APITest.test_CreditCard.executor": "Run",
     "JUnit.APITest.test_bankCard.executor": "Run",
+    "JUnit.ApiTest.test_StoreFactory_02.executor": "Run",
+    "JUnit.ApiTest.test_awardToUser.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/free/Desktop/codeDesign/代码/IDesign/4_TheDemeterPrinciple/src/main/java",
+    "last_opened_file_path": "C:/Users/free/Desktop/codeDesign/代码/IDesign/a2-AbstractFactorPattern/src/test/java/com/ivanzhao/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,29 +99,29 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.TestJdkAgent.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\a2-AbstractFactorPattern\src\test\java\com\ivanzhao\test" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\4_TheDemeterPrinciple\src\main\java" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\3_LiskovSubstitution\src\test\java" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\3_LiskovSubstitution\src\main\java" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.APITest.test_CreditCard">
-    <configuration name="APITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="2_OpenClose" />
+  <component name="RunManager" selected="应用程序.TestJdkAgent">
+    <configuration name="TestJdkAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.IDesign.PracticeDynamicProxy.TestJdkAgent" />
+      <module name="a2-AbstractFactorPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivanzhao.design.test.*" />
+          <option name="PATTERN" value="com.ivanzhao.IDesign.PracticeDynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ivanzhao.design.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.design.test.APITest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +158,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTest.test_StoreFactory_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="a1-FactoryPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanzhao.test.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivanzhao.test.factory" />
+      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.test.factory.ApiTest" />
+      <option name="METHOD_NAME" value="test_StoreFactory_02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_awardToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="a1-FactoryPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivanzhao.test.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ivanzhao.test.common" />
+      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.test.common.ApiTest" />
+      <option name="METHOD_NAME" value="test_awardToUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestJdkAgent" />
+        <item itemvalue="JUnit.ApiTest.test_StoreFactory_02" />
+        <item itemvalue="JUnit.ApiTest.test_awardToUser" />
         <item itemvalue="JUnit.APITest.test_CreditCard" />
         <item itemvalue="JUnit.APITest.test_bankCard" />
-        <item itemvalue="JUnit.APITest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +216,9 @@
       <option name="presentableId" value="Default" />
       <updated>1788829856641</updated>
       <workItem from="1788829858676" duration="12337000" />
+      <workItem from="1788922592782" duration="26592000" />
+      <workItem from="1789048360399" duration="5527000" />
+      <workItem from="1789088302584" duration="4309000" />
     </task>
     <servers />
   </component>

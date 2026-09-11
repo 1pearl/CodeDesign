@@ -9,6 +9,10 @@
         <option value="$PROJECT_DIR$/4_TheDemeterPrinciple/pom.xml" />
         <option value="$PROJECT_DIR$/5_InterfaceSegregationPrinciple/pom.xml" />
         <option value="$PROJECT_DIR$/6_DependencyInversionPrinciple/pom.xml" />
+        <option value="$PROJECT_DIR$/1-FactoryPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/2-AbstractFactorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/a1-FactoryPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/a2-AbstractFactorPattern/pom.xml" />
       </list>
     </option>
   </component>
