@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.ApiTest" time="0.237" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\free\Desktop\codeDesign\代码\IDesign\c3-IteratorPattern\target\test-classes;C:\Users\free\Desktop\codeDesign\代码\IDesign\c3-IteratorPattern\target\classes;D:\java_dev\Maven\repository\junit\junit\4.12\junit-4.12.jar;D:\java_dev\Maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\java_dev\Maven\repository\com\alibaba\fastjson\1.2.62\fastjson-1.2.62.jar;D:\java_dev\Maven\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;D:\java_dev\Maven\repository\org\slf4j\jcl-over-slf4j\1.7.5\jcl-over-slf4j-1.7.5.jar;D:\java_dev\Maven\repository\ch\qos\logback\logback-classic\1.0.9\logback-classic-1.0.9.jar;D:\java_dev\Maven\repository\ch\qos\logback\logback-core\1.0.9\logback-core-1.0.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\dawanloadJDK\bin"/>
+    <property name="sun.java.command" value="C:\Users\free\AppData\Local\Temp\surefire14488336659259359745\surefirebooter-20260914231908724_3.jar C:\Users\free\AppData\Local\Temp\surefire14488336659259359745 2026-09-14T23-19-03_579-jvmRun1 surefire-20260914231908724_1tmp surefire_0-20260914231908724_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\free\Desktop\codeDesign\代码\IDesign\c3-IteratorPattern\target\test-classes;C:\Users\free\Desktop\codeDesign\代码\IDesign\c3-IteratorPattern\target\classes;D:\java_dev\Maven\repository\junit\junit\4.12\junit-4.12.jar;D:\java_dev\Maven\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\java_dev\Maven\repository\com\alibaba\fastjson\1.2.62\fastjson-1.2.62.jar;D:\java_dev\Maven\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;D:\java_dev\Maven\repository\org\slf4j\jcl-over-slf4j\1.7.5\jcl-over-slf4j-1.7.5.jar;D:\java_dev\Maven\repository\ch\qos\logback\logback-classic\1.0.9\logback-classic-1.0.9.jar;D:\java_dev\Maven\repository\ch\qos\logback\logback-core\1.0.9\logback-core-1.0.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\free"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="D:\dawanloadJDK"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\free\Desktop\codeDesign\代码\IDesign\c3-IteratorPattern"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\free\AppData\Local\Temp\surefire14488336659259359745\surefirebooter-20260914231908724_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.17+8-LTS-360"/>
+    <property name="user.name" value="free"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\java_dev\Maven\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\free\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="C:\Users\free\Desktop\codeDesign\代码\IDesign\c3-IteratorPattern"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\dawanloadJDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\free\.gemini\antigravity-cli\bin;D:\Anaconda;D:\Anaconda\Library\mingw-w64\bin;D:\Anaconda\Library\usr\bin;D:\Anaconda\Library\bin;D:\Anaconda\Scripts;D:\Anaconda\bin;D:\Anaconda\condabin;C:\Program Files\Common Files\Oracle\Java\javapath;d:\cursor\cursor\resources\app\bin;D:\Program_Files\VMware\bin;D:\PythonDownload\Scripts;D:\PythonDownload;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;D:\Git\cmd;C:\Users\free\pcsuite;D:\java_dev\Maven\apache-maven-3.9.11\bin;D:\Program_Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;D:\Mysql\mysql-8.0.33-winx64\bin;D:\Anaconda;D:\Anaconda\Scripts;D:\Anaconda\Library\bin;D:\Anaconda\Library\mingw-w64\bin;D:\Windows Kits\10\Windows Performance Toolkit;D:\Program_Files\sql_server_share\100\Tools\Binn;D:\Program_Files\sql_server\100\Tools\Binn;D:\Program_Files\sql_server\100\DTS\Binn;D:\Program_Files\sql_server_share\100\Tools\Binn\VSShell\Common7\IDE;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies;D:\Program_Files\sql_server_share\100\DTS\Binn;C:\Program Files\dotnet;D:\Pro;D:\FrontEnd\nvm;D:\FrontEnd\nodejs;D:\FrontEnd\nvm;C:\Program Files\GitHub CLI;C:\Users\free\AppData\Local\agy\bin;C:\Users\free\scoop\shims;C:\Users\free\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip;C:\Users\free\AppData\Local\GitHubDesktop\bin;D:\IntelJ idea\IntelliJ IDEA 2025.1.1.1\bin;D:\dawanloadJDK\bin;D:\Python_pycharm\PyCharm 2022.2.3\bin;C:\Users\free\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program_Files\CLion 2022.3.2\bin;%DevEco Studio%;C:\Users\free\.dotnet\tools;%WebStorm%;D:\cursor\cursor\resources\app\bin;D:\LatexDev\miktex\bin\x64;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.17+8-LTS-360"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="test_iterator" classname="test.ApiTest" time="0.021">
+    <system-out><![CDATA[23:19:09.746 [main] INFO  test.ApiTest - ==================== 开始遍历多叉树组织架构 ====================
+23:19:09.750 [main] INFO  test.ApiTest - 二级部门 雇员 ID：2 Name：花花
+23:19:09.751 [main] INFO  test.ApiTest - 三级部门 雇员 ID：4 Name：蹦蹦
+23:19:09.751 [main] INFO  test.ApiTest - 三级部门 雇员 ID：5 Name：大烧
+23:19:09.751 [main] INFO  test.ApiTest - 四级部门 雇员 ID：6 Name：虎哥
+23:19:09.751 [main] INFO  test.ApiTest - 四级部门 雇员 ID：7 Name：玲姐
+23:19:09.751 [main] INFO  test.ApiTest - 四级部门 雇员 ID：8 Name：秋雅
+23:19:09.751 [main] INFO  test.ApiTest - 二级部门 雇员 ID：3 Name：豆包
+23:19:09.751 [main] INFO  test.ApiTest - ==================== 组织架构遍历结束 ====================
+]]></system-out>
+  </testcase>
+</testsuite>

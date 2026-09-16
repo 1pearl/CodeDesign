@@ -13,6 +13,26 @@
         <option value="$PROJECT_DIR$/2-AbstractFactorPattern/pom.xml" />
         <option value="$PROJECT_DIR$/a1-FactoryPattern/pom.xml" />
         <option value="$PROJECT_DIR$/a2-AbstractFactorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/a3-BuilderPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/a4-PrototypePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/a5-SingletonPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/b1-AdapterPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/b2-BridgePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/b3-CompositePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/b4-DecoratorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/b5-FacadePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/b6-FlyweightPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/b7-ProxyPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c1-ChainofResponsibility/pom.xml" />
+        <option value="$PROJECT_DIR$/c2-CommandPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c3-IteratorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c4-MediatorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c5-MementoPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c6-ObserverPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c7-StatePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c8-StrategyPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c9-TemplatePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/c10-VisitorPattern/pom.xml" />
       </list>
     </option>
   </component>

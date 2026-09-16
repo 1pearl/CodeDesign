@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 学校表 SQL 映射配置，namespace 对应 DAO 接口全类名 -->
+<mapper namespace="com.ivanzhao.Idesign.mediator.dao.ISchoolDao">
+
+    <!-- 根据学校ID查询单个学校信息，结果映射为 School POJO -->
+    <select id="querySchoolInfoById" resultType="com.ivanzhao.Idesign.mediator.po.School">
+        SELECT id, name, address, createTime, updateTime
+        FROM school
+        where id = #{id}
+    </select>
+
+</mapper>

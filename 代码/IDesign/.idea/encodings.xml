@@ -13,6 +13,46 @@
     <file url="file://$PROJECT_DIR$/a1-FactoryPattern/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-BuilderPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a3-BuilderPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a4-PrototypePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a4-PrototypePattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a5-SingletonPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/a5-SingletonPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b1-AdapterPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b1-AdapterPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b2-BridgePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b2-BridgePattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b3-CompositePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b3-CompositePattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b4-DecoratorPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b4-DecoratorPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b5-FacadePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b5-FacadePattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b6-FlyweightPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b6-FlyweightPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b7-ProxyPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/b7-ProxyPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c1-ChainofResponsibility/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c10-VisitorPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c10-VisitorPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c2-CommandPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c2-CommandPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c3-IteratorPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c3-IteratorPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c4-MediatorPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c4-MediatorPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c5-MementoPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c5-MementoPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c6-ObserverPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c6-ObserverPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c7-StatePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c7-StatePattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c8-StrategyPattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c8-StrategyPattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c9-TemplatePattern/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c9-TemplatePattern/src/main/resources" charset="UTF-8" />
     <file url="file://$APPLICATION_HOME_DIR$/bin/src/main/java" charset="UTF-8" />
     <file url="file://$APPLICATION_HOME_DIR$/bin/src/main/resources" charset="UTF-8" />
   </component>

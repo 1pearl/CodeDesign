@@ -5,42 +5,255 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea581f79-f171-4833-9742-d41926f1f0a7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/card/IQiYiCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/card/IQiYiCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/coupon/CouponInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/coupon/CouponResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/coupon/CouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/goods/DeliverReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/goods/GoodsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/BaseInfrastructure/goods/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/common/AwardReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/common/AwardRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/common/PrizeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/ICommodity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/StoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/store/Impl/CardCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/store/Impl/CouponCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/main/java/com/ivanzhao/Design/factory/store/Impl/GoodsCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/test/java/com/ivanzhao/test/common/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a1-FactoryPattern/src/test/java/com/ivanzhao/test/factory/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/application/CacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/application/CacheServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/redis/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/redis/cluster/EGM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/redis/cluster/IIR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/PracticeDynamicProxy/TestJdkAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/factory/JDKInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/factory/JDKProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/util/ClassLoaderUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/workshop/ICacheAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/workshop/impl/EGMCacheAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/abstractFactory/workshop/impl/IIRCacheAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/common/CacheClusterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/main/java/com/ivanzhao/IDesign/common/CacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/test/java/com/ivanzhao/test/abstractFactory/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a2-AbstractFactorPattern/src/test/java/com/ivanzhao/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/Matter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/ceiling/LevelOneCeiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/ceiling/LevelTwoCeiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/coat/DuluxCoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/coat/LiBangCoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/floor/DerFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/floor/ShengXiangFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/tile/DongPengTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/BaseInfra/tile/MarcoPoloTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/builderpattern/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/builderpattern/DecorationPackageMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/builderpattern/IMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/main/java/com/ivanzhao/IDesign/common/DecorationPackageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/test/java/com/ivanzhao/IDesign/test/builderPattern/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a3-BuilderPattern/src/test/java/com/ivanzhao/IDesign/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/main/java/com/ivanzhao/IDesign/Infra/AnswerQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/main/java/com/ivanzhao/IDesign/Infra/ChoiceQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/main/java/com/ivanzhao/IDesign/common/QuestionBankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/main/java/com/ivanzhao/IDesign/prototype/QuestionBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/main/java/com/ivanzhao/IDesign/prototype/QuestionBankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/main/java/com/ivanzhao/IDesign/prototype/util/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/main/java/com/ivanzhao/IDesign/prototype/util/TopicRandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/test/java/com/ivanzhao/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a4-PrototypePattern/src/test/java/com/ivanzhao/test/prototype/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/main/java/com/ivanzhao/Idesign/Singleton_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a5-SingletonPattern/src/test/java/com/ivanzhao/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/adapterpattern/MQAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/adapterpattern/OrderAdapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/adapterpattern/OrderUnifiInfor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/adapterpattern/impl/InsideOrderAdapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/adapterpattern/impl/POPOrderAdapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/common/OrderMqService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/common/POPOrderDeliveredService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/common/create_accountMqService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/infra/mq/OrderMq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/infra/mq/POPOrderDelivered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/infra/mq/create_account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/infra/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/main/java/com/ivan/zhao/IDesign/infra/services/POPOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1-AdapterPattern/src/test/java/adapter/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/bridgepattern/channel/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/bridgepattern/channel/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/bridgepattern/channel/WxPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/bridgepattern/mode/IPayMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/bridgepattern/mode/impl/PayCypher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/bridgepattern/mode/impl/PayFaceMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/bridgepattern/mode/impl/PayFingerprintMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/main/java/com/ivanzhao/IDesign/common/PayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/test/java/test/BridgePattern/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b2-BridgePattern/src/test/java/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/myService/engine/MyTreeEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/myService/logic/MyLogicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/myService/logic/impl/MyUserAgeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/myService/logic/impl/MyUserGenderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/mymodel/MyTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/mymodel/MyTreeNodeLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/mymodel/MyTreeRich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/My/mymodel/MyTreeRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/common/EngineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/model/aggregates/TreeRich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/model/vo/EngineResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/model/vo/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/model/vo/TreeNodeLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/model/vo/TreeRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/engine/EngineBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/engine/EngineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/engine/IEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/engine/impl/TreeEngineHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/logic/BaseLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/logic/LogicFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/logic/impl/UserAgeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/main/java/com/ivanzhao/IDesign/compositepattern/service/logic/impl/UserGenderFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/test/java/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/test/java/compositepattern/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b3-CompositePattern/src/test/java/myTest/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/src/main/java/com/ivanzhao/IDesign/Infra/HandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/src/main/java/com/ivanzhao/IDesign/Infra/SsoInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/src/main/java/com/ivanzhao/IDesign/common/LoginSsoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/src/main/java/com/ivanzhao/IDesign/decatorpattern/LoginSsoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/src/main/java/com/ivanzhao/IDesign/decatorpattern/SsoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/src/test/java/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b4-DecoratorPattern/src/test/java/decorator/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/Infra/HelloWorldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/Infra/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/Infra/web/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/My/DoMyJoinPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/My/annotation/MyDoDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/My/config/StarterAutoConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/My/config/StarterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/My/config/StarterServiceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/common/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/facade/DoJoinPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/facade/annotation/DoDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/facade/config/StarterAutoConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/facade/config/StarterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/java/com/ivanzhao/Idesign/facade/config/StarterServiceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b5-FacadePattern/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/src/main/java/com/ivanzhao/IDesign/Infra/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/src/main/java/com/ivanzhao/IDesign/Infra/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/src/main/java/com/ivanzhao/IDesign/Infra/util/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/src/main/java/com/ivanzhao/IDesign/common/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/src/main/java/com/ivanzhao/IDesign/flyweight/ActiveFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/src/test/java/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b6-FlyweightPattern/src/test/java/flyweight/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7-ProxyPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7-ProxyPattern/src/main/java/com/ivanzhao/Idesign/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7-ProxyPattern/src/main/java/com/ivanzhao/Idesign/agent/MapperFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7-ProxyPattern/src/main/java/com/ivanzhao/Idesign/agent/RegisterBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7-ProxyPattern/src/main/java/com/ivanzhao/Idesign/agent/Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7-ProxyPattern/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b7-ProxyPattern/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/CoR/AuthLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/CoR/Myimpl/Level1Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/CoR/Myimpl/Level2Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/CoR/Myimpl/Level3Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/CoR/impl/Level1AuthLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/CoR/impl/Level2AuthLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/CoR/impl/Level3AuthLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/Infra/AuthInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/Infra/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/main/java/com/ivanzhao/IDesign/common/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c1-ChainofResponsibility/src/test/java/com/ivanzhao/test/TestApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/main/java/com/ivanzhao/Idesign/DataView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/main/java/com/ivanzhao/Idesign/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/main/java/com/ivanzhao/Idesign/user/impl/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/main/java/com/ivanzhao/Idesign/user/impl/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/main/java/com/ivanzhao/Idesign/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/main/java/com/ivanzhao/Idesign/visitor/impl/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/main/java/com/ivanzhao/Idesign/visitor/impl/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-VisitorPattern/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cook/ICook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cook/impl/GuangDongCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cook/impl/JiangSuCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cook/impl/ShanDongCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cook/impl/SiChuanCook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cuisine/ICuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cuisine/impl/GuangDoneCuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cuisine/impl/JiangSuCuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cuisine/impl/ShanDongCuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/command/cuisine/impl/SiChuanCuisine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/main/java/com/ivanzhao/Idesign/common/XiaoEr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/test/java/test/command/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c2-CommandPattern/src/test/java/test/common/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/src/main/java/com/ivanzhao/Idesign/group/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/src/main/java/com/ivanzhao/Idesign/group/GroupStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/src/main/java/com/ivanzhao/Idesign/group/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/src/main/java/com/ivanzhao/Idesign/lang/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/src/main/java/com/ivanzhao/Idesign/lang/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/src/main/java/com/ivanzhao/Idesign/lang/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c3-IteratorPattern/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/My/MyMediator/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/My/MyMediator/IMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/My/MyMediator/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/My/MyMediator/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/My/MyMediator/OrderMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/My/MyMediator/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/common/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/dao/ISchoolDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/media/XNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/po/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/java/com/ivanzhao/Idesign/mediator/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/resources/mapper/School_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/resources/mapper/User_Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4-MediatorPattern/src/main/resources/mybatis-config-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c5-MementoPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c5-MementoPattern/src/main/java/com/ivanzhao/Idesign/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c5-MementoPattern/src/main/java/com/ivanzhao/Idesign/ConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c5-MementoPattern/src/main/java/com/ivanzhao/Idesign/ConfigMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c5-MementoPattern/src/main/java/com/ivanzhao/Idesign/ConfigOriginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c5-MementoPattern/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/Infra/MinibusTargetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/My/observer/LotteryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/My/observer/LotteryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/My/observer/event/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/My/observer/event/listener/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/My/observer/event/listener/MQEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/My/observer/event/listener/MessageEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/common/LotteryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/common/LotteryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/common/LotteryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/observer/LotteryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/observer/evnet/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/observer/evnet/listener/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/observer/evnet/listener/MQEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/main/java/com/ivanzhao/IDesign/observer/evnet/listener/MessageEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c6-ObserverPattern/src/test/java/test/observer/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/common/ActivityExecStatusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/infra/ActivityInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/infra/ActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/infra/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/StateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/impl/CheckState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/impl/CloseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/impl/DoingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/impl/EditingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/impl/OpenState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/impl/PassState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/main/java/com/ivanzhao/IDesign/state/impl/RefuseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c7-StatePattern/src/test/java/test/state/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/main/java/com/ivanzhao/Idesign/common/CouponDiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/main/java/com/ivanzhao/Idesign/strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/main/java/com/ivanzhao/Idesign/strategy/ICouponDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/main/java/com/ivanzhao/Idesign/strategy/impl/MJCouponDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/main/java/com/ivanzhao/Idesign/strategy/impl/NYGCouponDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/main/java/com/ivanzhao/Idesign/strategy/impl/ZJCouponDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/main/java/com/ivanzhao/Idesign/strategy/impl/ZKCouponDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c8-StrategyPattern/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c9-TemplatePattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c9-TemplatePattern/src/main/java/com/ivanzhao/Idesign/template/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c9-TemplatePattern/src/main/java/com/ivanzhao/Idesign/template/NetMall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c9-TemplatePattern/src/main/java/com/ivanzhao/Idesign/template/impl/DangDangNetMall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c9-TemplatePattern/src/main/java/com/ivanzhao/Idesign/template/impl/JDNetMall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c9-TemplatePattern/src/main/java/com/ivanzhao/Idesign/template/impl/TaoBaoNetMall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c9-TemplatePattern/src/test/java/test/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -55,6 +268,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -71,6 +285,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -83,8 +300,21 @@
     "JUnit.APITest.executor": "Run",
     "JUnit.APITest.test_CreditCard.executor": "Run",
     "JUnit.APITest.test_bankCard.executor": "Run",
+    "JUnit.ApiTest.test (1).executor": "Run",
+    "JUnit.ApiTest.test.executor": "Run",
+    "JUnit.ApiTest.test_BuilderPattern.executor": "Run",
+    "JUnit.ApiTest.test_LoginSsoDecorator.executor": "Run",
+    "JUnit.ApiTest.test_MQAdapter.executor": "Run",
+    "JUnit.ApiTest.test_NetMall.executor": "Run",
+    "JUnit.ApiTest.test_QuestionBank.executor": "Run",
+    "JUnit.ApiTest.test_QuestionBankController.executor": "Run",
     "JUnit.ApiTest.test_StoreFactory_02.executor": "Run",
     "JUnit.ApiTest.test_awardToUser.executor": "Run",
+    "JUnit.ApiTest.test_draw.executor": "Run",
+    "JUnit.ApiTest.test_draw_observer_dynamic.executor": "Run",
+    "JUnit.ApiTest.test_pay.executor": "Run",
+    "JUnit.ApiTest.test_show.executor": "Run",
+    "JUnit.ApiTest.test_tree.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -100,6 +330,8 @@
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true",
+    "应用程序.ApiTest.executor": "Run",
+    "应用程序.Singleton_06.executor": "Run",
     "应用程序.TestJdkAgent.executor": "Run"
   }
 }]]></component>
@@ -111,92 +343,105 @@
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign\3_LiskovSubstitution\src\main\java" />
       <recent name="C:\Users\free\Desktop\codeDesign\代码\IDesign" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="decorator" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.TestJdkAgent">
-    <configuration name="TestJdkAgent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.IDesign.PracticeDynamicProxy.TestJdkAgent" />
-      <module name="a2-AbstractFactorPattern" />
+  <component name="RunManager" selected="JUnit.ApiTest.test_show">
+    <configuration name="ApiTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c5-MementoPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivanzhao.IDesign.PracticeDynamicProxy.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="APITest.test_CreditCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3_LiskovSubstitution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ivanzhao.design.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ivanzhao.design.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.design.test.APITest" />
-      <option name="METHOD_NAME" value="test_CreditCard" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITest.test_bankCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3_LiskovSubstitution" />
+    <configuration name="ApiTest.test_NetMall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c9-TemplatePattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivanzhao.design.test.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ivanzhao.design.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.design.test.APITest" />
-      <option name="METHOD_NAME" value="test_bankCard" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="test_NetMall" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_StoreFactory_02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="a1-FactoryPattern" />
+    <configuration name="ApiTest.test_draw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c6-ObserverPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivanzhao.test.factory.*" />
+          <option name="PATTERN" value="test.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ivanzhao.test.factory" />
-      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.test.factory.ApiTest" />
-      <option name="METHOD_NAME" value="test_StoreFactory_02" />
+      <option name="PACKAGE_NAME" value="test.observer" />
+      <option name="MAIN_CLASS_NAME" value="test.observer.ApiTest" />
+      <option name="METHOD_NAME" value="test_draw" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTest.test_awardToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="a1-FactoryPattern" />
+    <configuration name="ApiTest.test_draw_observer_dynamic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c6-ObserverPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ivanzhao.test.common.*" />
+          <option name="PATTERN" value="test.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ivanzhao.test.common" />
-      <option name="MAIN_CLASS_NAME" value="com.ivanzhao.test.common.ApiTest" />
-      <option name="METHOD_NAME" value="test_awardToUser" />
+      <option name="PACKAGE_NAME" value="test.observer" />
+      <option name="MAIN_CLASS_NAME" value="test.observer.ApiTest" />
+      <option name="METHOD_NAME" value="test_draw_observer_dynamic" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_show" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c10-VisitorPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="test_show" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="b5-FacadePattern" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ivanzhao.Idesign.Infra.HelloWorldApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.TestJdkAgent" />
-        <item itemvalue="JUnit.ApiTest.test_StoreFactory_02" />
-        <item itemvalue="JUnit.ApiTest.test_awardToUser" />
-        <item itemvalue="JUnit.APITest.test_CreditCard" />
-        <item itemvalue="JUnit.APITest.test_bankCard" />
+        <item itemvalue="JUnit.ApiTest.test_show" />
+        <item itemvalue="JUnit.ApiTest.test_NetMall" />
+        <item itemvalue="JUnit.ApiTest.test_draw_observer_dynamic" />
+        <item itemvalue="JUnit.ApiTest.test_draw" />
+        <item itemvalue="JUnit.ApiTest.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +463,14 @@
       <workItem from="1788829858676" duration="12337000" />
       <workItem from="1788922592782" duration="26592000" />
       <workItem from="1789048360399" duration="5527000" />
-      <workItem from="1789088302584" duration="4309000" />
+      <workItem from="1789088302584" duration="9457000" />
+      <workItem from="1789111571627" duration="15432000" />
+      <workItem from="1789142891560" duration="162000" />
+      <workItem from="1789175538291" duration="34869000" />
+      <workItem from="1789264200879" duration="29551000" />
+      <workItem from="1789347924244" duration="35876000" />
+      <workItem from="1789433566036" duration="25653000" />
+      <workItem from="1789520563096" duration="7701000" />
     </task>
     <servers />
   </component>

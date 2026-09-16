@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 用户表 SQL 映射配置，namespace 对应 DAO 接口全类名 -->
+<mapper namespace="com.ivanzhao.Idesign.mediator.dao.IUserDao">
+
+    <!-- 根据用户ID查询单个用户信息，入参为 Long，结果映射为 User POJO -->
+    <select id="queryUserInfoById" parameterType="java.lang.Long" resultType="com.ivanzhao.Idesign.mediator.po.User">
+        SELECT id, name, age, createTime, updateTime
+        FROM user
+        where id = #{id}
+    </select>
+    
+    <!-- 根据条件（如年龄）查询用户列表，入参为 User 对象，结果映射为 User POJO 列表 -->
+    <select id="queryUserList" parameterType="com.ivanzhao.Idesign.mediator.po.User" resultType="com.ivanzhao.Idesign.mediator.po.User">
+        SELECT id, name, age, createTime, updateTime
+        FROM user
+        where age = #{age}
+    </select>
+
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+       default-autowire="byName">
+
+    <!-- 
+        【代理模式在 Spring 中的启动入口】
+        注册 RegisterBeanFactory 后置处理器。
+        Spring 容器启动时，会自动调用该类中的 postProcessBeanDefinitionRegistry 方法，
+        从而将负责为 IUserDao 生成代理对象的 MapperFactoryBean 动态注册到 Spring 容器中，
+        实现无需手写 UserDaoImpl 就能直接注入并使用 userDao 的强大能力！
+    -->
+    <bean id="userDao" class="com.ivanzhao.Idesign.agent.RegisterBeanFactory"/>
+
+</beans>
